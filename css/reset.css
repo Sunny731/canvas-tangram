@@ -1,0 +1,104 @@
+html, body, p, h1, h2, h3, h4, h5, h6, form, input, textarea, select, button, fieldset, legend, img, ul, ol, li, dl, dt, dd, th, tr, td, pre, blockquote {
+	margin: 0;
+	padding: 0
+}
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color: transparent;
+	font-size:100px;
+}
+@media screen and (max-width: 320px){
+  html{
+    font-size: 85px;
+  }
+}
+@media screen and (min-width: 414px){
+  html{
+    font-size:110px;
+  }
+}
+body {
+	font:14px Helvetica,"微软雅黑";
+	color: #666;
+	width: 100%;
+}
+img, fieldset {
+	border: 0;
+	vertical-align: middle
+}
+input,select,textarea,button{
+	font:11px/16px Tahoma, Geneva, sans-serif; 
+	color:#8b8888; 
+	border:0; 
+	outline: none;
+}
+textarea{
+	resize:none;
+	overflow:auto;
+}
+select{
+	-webkit-appearance:none;
+}
+a {
+	text-decoration: none;
+	color: #4c4c4c;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+ul, li, ol {
+	list-style: none
+}
+img {
+	max-width: 100%;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+	border: none;
+}
+em, i {
+	font-style: normal;
+}
+table{
+	 border-collapse: collapse;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height:0;
+	visibility:hidden;	
+}
+.cleafix {
+	zoom: 1;
+}
+.clear {
+	clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
